@@ -99,3 +99,23 @@ This evaluation flow is designed for parallel acceleration and requires at least
 ## License
 
 See [LICENSE](LICENSE).
+
+## Acknowledgements
+
+We thank [`Video-R1`](https://github.com/tulerfeng/Video-R1) for the original codebase and release foundation of this project.
+
+We sincerely appreciate the contributions of the open-source community. The related projects include [`R1-V`](https://github.com/StarsfieldAI/R1-V) and [`DeepSeek-R1`](https://github.com/deepseek-ai/DeepSeek-R1).
+
+## Citation
+
+If you find `ViSS-R1` useful in your research, please consider citing:
+
+```bibtex
+@InProceedings{Fang_2026_CVPRW,
+    author    = {Fang, Bo and Song, YuXin and Sun, Haoyuan and Zhang, Xinyao and Wu, Qiangqiang and Wu, Wenhao and Chan, Antoni B.},
+    title     = {ViSS-R1: Self-Supervised Reinforcement Video Reasoning},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    year      = {2026},
+    pages     = {11190-11200}
+}
+```
