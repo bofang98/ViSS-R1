@@ -49,6 +49,13 @@ export VIDEO_R1_DATA_ROOT=/path/to/Video-R1-data
 CUDA_VISIBLE_DEVICES=0,1 python preprocess_SFT/anno_sft_72b.py --split 0 --transformation
 ```
 
+## Models
+
+Our released checkpoints are available at:
+
+- `Pretext-GRPO`: `https://huggingface.co/1Xinyaozxy/ViSS-R1-PretextGRPO`
+- `ViSS-R1`: `https://huggingface.co/1Xinyaozxy/ViSS-R1`
+
 ## Usage
 
 Before running the code, you should adapt local paths for:
@@ -72,6 +79,16 @@ For the SFT stage, launch `src/scripts/run_sft_video.sh` to train the model to g
 For the RL stage, launch `src/scripts/run_grpo_video_SSL.sh` to further enhance the SFT base model through SSL transformations.
 
 All SSL transformations are implemented in [`process_transformation`](./src/r1-v/src/open_r1/trainer/grpo_trainer.py) in [grpo_trainer.py](/mnt/bn/omninas/fangbo/ViSS-R1/src/r1-v/src/open_r1/trainer/grpo_trainer.py:790). The current image branch includes `rotate`, `flip`, and `puzzle`, while the video branch includes `rotate`, `shuffle`, and `arrow`.
+
+## Evaluation
+
+Use `src/eval_bench_parallel.sh` for parallelized evaluation:
+
+```bash
+bash src/eval_bench_parallel.sh
+```
+
+This evaluation flow is designed for parallel acceleration and requires at least 6 GPUs.
 
 ## Notes
 
