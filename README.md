@@ -88,7 +88,7 @@ Use `src/eval_bench_parallel.sh` for parallelized evaluation:
 bash src/eval_bench_parallel.sh
 ```
 
-This evaluation flow is designed for parallel acceleration and requires at least 6 GPUs.
+This evaluation flow is designed for parallel acceleration and requires at least 6 GPUs for6 benchmarks.
 
 ## Notes
 
