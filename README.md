@@ -111,7 +111,7 @@ We sincerely appreciate the contributions of the open-source community. The rela
 If you find `ViSS-R1` useful in your research, please consider citing:
 
 ```bibtex
-@InProceedings{Fang_2026_CVPRW,
+@InProceedings{Fang_2026_ViSSR1,
     author    = {Fang, Bo and Song, YuXin and Sun, Haoyuan and Zhang, Xinyao and Wu, Qiangqiang and Wu, Wenhao and Chan, Antoni B.},
     title     = {ViSS-R1: Self-Supervised Reinforcement Video Reasoning},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
