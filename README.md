@@ -96,10 +96,6 @@ This evaluation flow is designed for parallel acceleration and requires at least
 - The archive was cleaned before publication: backup folders, training logs, and checkpoint metadata were removed.
 - Public entry scripts were simplified so they no longer depend on machine-specific `source /...` environment commands.
 
-## License
-
-See [LICENSE](LICENSE).
-
 ## Acknowledgements
 
 We thank [`Video-R1`](https://github.com/tulerfeng/Video-R1) for the original codebase and release foundation of this project.
@@ -119,3 +115,7 @@ If you find `ViSS-R1` useful in your research, please consider citing:
     pages     = {11190-11200}
 }
 ```
+
+## License
+
+See [LICENSE](LICENSE).
